@@ -1,0 +1,48 @@
+require: rubocop-rspec
+
+<<<<<<< HEAD
+AllCops:
+  NewCops: enable
+
+=======
+>>>>>>> 3336aad... initial version
+RSpec/MessageChain:
+  Enabled: false
+
+RSpec/NestedGroups:
+  Max: 10
+
+RSpec/MultipleExpectations:
+  Max: 5
+
+RSpec/ExampleLength:
+  Max: 15
+
+RSpec/MessageSpies:
+  EnforcedStyle: receive
+
+Metrics/BlockLength:
+  Exclude:
+    - "Gemfile"
+    - "spec/**/*.rb"
+
+Metrics/ClassLength:
+  Max: 100
+
+Metrics/ModuleLength:
+  Max: 100
+
+Layout/LineLength:
+  Max: 120
+
+Style/Documentation:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+RSpec/MultipleMemoizedHelpers:
+  Enabled: false
+
+RSpec/StubbedMock:
+  Enabled: true
